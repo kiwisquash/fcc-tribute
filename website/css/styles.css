@@ -49,7 +49,7 @@ body {
 
 .menu-item:hover {
 	background-color: blue;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 h1 {
@@ -60,7 +60,8 @@ h1 {
 	display: block;
 	margin: auto;
 	border-radius: 50%;
-	width: 50%;
+	width: 65%;
+	max-width: 400px;
 }
 
 #img-caption {
