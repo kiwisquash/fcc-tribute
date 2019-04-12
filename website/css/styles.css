@@ -1,10 +1,23 @@
 :root {
-	--back-img: url("http://freshwallpapers.in/walls/high_tech_background-wide.jpg");
+	--negative-space: gray;
+
+	--nav-back: pink ;
+	--menu-item-back: red;
+	--menu-item-back-hover: blue;
+	--menu-font:;
+	--menu-text-color: gray;
+	--menu-item-font:;  
+	--menu-item-text-color: gray;
+
+	--tribute-back: cyan;
+	--tribute-font: ;
+	--tribute-text-color: green;
+
+	--blockquote-back: ;
 }
 
 body {
-	/* background-image: var(--back-img); */
-	background-color: white;
+	background-color: var(--negative-space);
 }
 
 #container {
@@ -18,11 +31,12 @@ body {
 
 #nav {
  /* border-style: solid none solid solid; */
- background-color: gray;
+ background-color: var(--nav-back);
  overflow: scroll;
 }
 
 #tribute-info {
+ color: var(--tribute-text-color); 
  /* background-color: blue; */
  /* opacity: .75; */
  /* border-style: solid; */
@@ -30,13 +44,13 @@ body {
  grid-template-rows:
 	repeat(9, auto);
  padding: 40px;
- background-color: cyan;
+ background-color: var(--tribute-back);
  /* height: 80%; */
  overflow: scroll;
 }
 
 #menu {
-	/* background-color: green; */
+	color: var(--menu-text-color);
 	padding: 20px;
 	display: grid;
 	grid-template-rows:
@@ -45,6 +59,8 @@ body {
 }
 
 .menu-item {
+	color: var(--menu-text-item-color);
+	background-color: var(--menu-item-back);
 	text-decoration: none;
 	border-width: 5px;
 	padding: 4px;
@@ -52,7 +68,7 @@ body {
 }
 
 .menu-item:hover {
-	background-color: blue;
+	background-color: var(--menu-item-back-hover);
 	transform: scale(1.1);
 }
 
