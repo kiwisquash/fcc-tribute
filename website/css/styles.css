@@ -8,8 +8,10 @@ body {
 }
 
 #container {
+	margin:-1em;
 	display: grid;
 	grid-template-columns: 240px minmax(480px, 100%);
+	/* outline: solid; */
   height: 800px;
 }
 
@@ -22,7 +24,7 @@ body {
 #tribute-info {
  /* background-color: blue; */
  /* opacity: .75; */
- border-style: solid;
+ /* border-style: solid; */
  display: grid;
  grid-template-rows:
 	repeat(9, auto);
@@ -44,7 +46,7 @@ body {
 	text-decoration: none;
 	border-width: 5px;
 	padding: 4px;
-	border-style: solid;
+	outline: solid;
 }
 
 .menu-item:hover {
