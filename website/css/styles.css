@@ -74,12 +74,14 @@ body {
 }
 
 h1 {
-	font-family: Papyrus, Fantasy;
+	font-family: Fantasy, sans-serif;
+	font-weight: 900;
 	text-align: center;
 }
 
 h2 {
 	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+	font-weight: 900;
 }
 
 #image {
