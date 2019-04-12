@@ -41,6 +41,7 @@ body {
 }
 
 .menu-item {
+	text-decoration: none;
 	border-width: 5px;
 	padding: 4px;
 	border-style: solid;
@@ -49,10 +50,6 @@ body {
 .menu-item:hover {
 	background-color: blue;
 	transform: scale(1.2);
-}
-
-.menu-item a {
-	text-decoration: none;
 }
 
 h1 {
