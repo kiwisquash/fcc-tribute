@@ -103,13 +103,14 @@ h2 {
 .paragraph {
 	/* border-style: solid none solid none; */
 	/* background-color: yellow; */
+	font-size: 18px;
 }
 
 .cool-quote{
 	/* background-color: blue; */
 	padding: 4px;
 	color: gray;
-	font-size: 20px;
+	font-size: 25px;
 	font-style: italic;
 	text-align: center;
 	/* border-radius: 10px; */
