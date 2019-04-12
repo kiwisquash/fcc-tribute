@@ -1,0 +1,7 @@
+:root {
+	--back-img: url("http://freshwallpapers.in/walls/high_tech_background-wide.jpg");
+}
+
+body {
+	background-image: var(--back-img);
+}
