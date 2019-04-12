@@ -56,6 +56,13 @@ h1 {
 	text-align: center;
 }
 
+#image {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 50%;
+}
+
 #img-caption {
 	text-align: center;
 	i
