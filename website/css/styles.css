@@ -19,7 +19,7 @@ body {
 }
 
 #container {
-	margin:-1em;
+	margin:-.5em;
 	display: grid;
 	grid-template-columns: 280px minmax(480px, 900px);
   height: 800px;
@@ -56,6 +56,12 @@ body {
 	grid-template-rows:
 		repeat(6, auto);
 	grid-gap: 10px;
+}
+
+#menu h2 {
+	border-style: solid;
+	background-color: black;
+	padding: 20px;
 }
 
 .menu-item {
