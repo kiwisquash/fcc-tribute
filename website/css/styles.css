@@ -1,17 +1,15 @@
 :root {
-	--negative-space: gray;
+	--negative-space: hsla(263, 50%, 75%, 1);
 
-	--nav-back: pink ;
-	--menu-item-back: red;
-	--menu-item-back-hover: blue;
-	--menu-font:;
-	--menu-text-color: gray;
+	--nav-back: hsla(143, 44%, 70%, 1);
+	--menu-head-back: hsla(263, 50%, 50%, 1);
+	--menu-item-back: hsla(23, 44%, 81%, 1);
+	--menu-item-back-hover: hsla(83, 44%, 81%, 1);
+	--menu-text-color: hsla(203, 50%, 50%, 1);
 	--menu-item-font: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;  
-	--menu-item-text-color: gray;
-
-	--tribute-back: cyan;
+	--tribute-back: hsla(143, 44%, 85%, 1);
 	--tribute-font: Perpetua, Baskerville, Big Caslon,serif;
-	--tribute-text-color: green;
+	--tribute-text-color: hsla(23, 50%, 25%, 1);
 }
 
 body {
@@ -60,7 +58,7 @@ body {
 
 #menu h2 {
 	border-style: solid;
-	background-color: black;
+	background-color: var(--menu-head-back);
 	padding: 20px;
 }
 
