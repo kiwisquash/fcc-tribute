@@ -8,7 +8,7 @@ body {
 
 #container {
 	display: grid;
-	grid-template-columns: minmax(14em, 15em) minmax(30em, 100%);
+	grid-template-columns: 15em minmax(30em, 100%);
 }
 
 #nav {
