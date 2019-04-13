@@ -33,7 +33,7 @@ body {
  background-color: var(--nav-back);
  position: fixed;
  width: 280px;
- height: 100vh;
+ height: 100%;
  overflow-y: scroll;
 }
 
@@ -49,7 +49,7 @@ body {
 	repeat(9, auto);
  padding: var(--tribute-padding, 40px);
  background-color: var(--tribute-back);
- height: 100vh;
+ height: 100%;
 }
 
 #menu {
