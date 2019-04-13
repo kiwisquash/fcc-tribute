@@ -25,15 +25,12 @@ body {
 	margin:-.5em;
 	display: grid;
 	grid-template-columns: 280px minmax(480px, 900px);
-  height: 800px;
 	/* outline: solid; */
-  /* height: 100%; */
+  height: 100%;
 }
 
 #nav {
- /* border-style: solid none solid solid; */
  background-color: var(--nav-back);
- overflow: scroll;
 }
 
 @media only screen and (max-width: 800px) {
@@ -64,8 +61,6 @@ body {
 	repeat(9, auto);
  padding: var(--tribute-padding, 40px);
  background-color: var(--tribute-back);
- /* height: 80%; */
- overflow: scroll;
 }
 
 #menu {
