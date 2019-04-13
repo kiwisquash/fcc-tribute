@@ -34,6 +34,7 @@ body {
  position: fixed;
  width: 280px;
  height: 100%;
+ overflow-y: scroll;
 }
 
 @media only screen and (max-width: 800px) {
