@@ -10,6 +10,11 @@
 	--tribute-back: hsla(143, 44%, 85%, 1);
 	--tribute-font: Perpetua, Baskerville, Big Caslon,serif;
 	--tribute-text-color: hsla(23, 50%, 25%, 1);
+	--header-font-size: 45px;
+	--subheader-font-size: 30px;
+	--quote-font-size: 25px; 
+	--quote-padding: 3px;
+	--tribute-padding: 40px;
 }
 
 body {
@@ -31,6 +36,23 @@ body {
  overflow: scroll;
 }
 
+@media only screen and (max-width: 800px) {
+	#container {
+		grid-template-columns: 0px 100%;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	:root {
+		--header-font-size: 10vw;
+		--subheader-font-size: 7vw;
+		--quote-font-size: 5.5vw; 
+		--tribute-padding: 7vw;
+		--quote-padding: 0vw;
+	}
+}
+
 #tribute-info { 
 	font-family: var(--tribute-font);
  color: var(--tribute-text-color); 
@@ -40,7 +62,7 @@ body {
  display: grid;
  grid-template-rows:
 	repeat(9, auto);
- padding: 40px;
+ padding: var(--tribute-padding, 40px);
  background-color: var(--tribute-back);
  /* height: 80%; */
  overflow: scroll;
@@ -79,7 +101,7 @@ body {
 
 h1 {
 	font-family: Fantasy, sans-serif;
-	font-size: 45px;
+	font-size: var(--header-font-size, 45px);
 	font-weight: 900;
 	text-align: center;
 }
@@ -91,8 +113,15 @@ h1 {
 
 h2 {
 	font-family: Copperplate, Copperplate Gothic Light, fantasy;
+	font-size: var(--subheader-font-size,30px);
 	font-weight: 200;
 }
+
+@media only screen and (max-width: 400px) {
+	h2 {
+		text-align: center;
+	}
+}	
 
 #image {
 	display: block;
@@ -116,9 +145,9 @@ h2 {
 
 .cool-quote{
 	/* background-color: blue; */
-	padding: 4px;
+	padding: var(--quote-padding, 3px);
 	color: gray;
-	font-size: 25px;
+	font-size: var(--quote-font-size, 25px);
 	font-style: italic;
 	text-align: center;
 	/* border-radius: 10px; */
@@ -128,3 +157,9 @@ h2 {
 footer {
 	text-align: center;
 }
+
+@media only screen and (max-width: 400px) {
+	footer {
+		font-size: 4vw;
+	}
+}	
