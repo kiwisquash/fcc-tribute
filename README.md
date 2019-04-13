@@ -4,7 +4,7 @@ This is the first of the 30 [Free Code Camp](https://www.freecodecamp.org/settin
 
 It is the first of the 5 Responsive Web Design Projects.
 
-I actually did a version of this project for the legacy curriculum with MagiKarp. 
+I actually did a version of this project for the legacy curriculum with [MagiKarp](https://codepen.io/kiwisquash/full/QOBrJN). 
 
 Since I am starting over, I decided to create a brand new page, featuring one of my favorite YouTuber: TechLead.
 
