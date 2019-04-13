@@ -33,29 +33,10 @@ body {
  background-color: var(--nav-back);
  position: fixed;
  width: 280px;
- height: 100%;
+ height: 100vh;
  overflow-y: scroll;
 }
 
-@media only screen and (max-width: 800px) {
-	#container {
-		grid-template-columns: 0px 100%;
-	}
-	
-	#nav {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	:root {
-		--header-font-size: 10vw;
-		--subheader-font-size: 7vw;
-		--quote-font-size: 5.5vw; 
-		--tribute-padding: 7vw;
-		--quote-padding: 0vw;
-	}
-}
 
 #tribute-info { 
 	font-family: var(--tribute-font);
@@ -68,7 +49,7 @@ body {
 	repeat(9, auto);
  padding: var(--tribute-padding, 40px);
  background-color: var(--tribute-back);
- height: 100%;
+ height: 100vh;
 }
 
 #menu {
@@ -120,11 +101,6 @@ h2 {
 	font-weight: 200;
 }
 
-@media only screen and (max-width: 400px) {
-	h2 {
-		text-align: center;
-	}
-}	
 
 #image {
 	display: block;
@@ -161,8 +137,31 @@ footer {
 	text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+	#container {
+		grid-template-columns: 0px 100%;
+	}
+	
+	#nav {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 400px) {
+	:root {
+		--header-font-size: 10vw;
+		--subheader-font-size: 7vw;
+		--quote-font-size: 5.5vw; 
+		--tribute-padding: 7vw;
+		--quote-padding: 0vw;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
 	footer {
 		font-size: 4vw;
 	}
+
 }	
