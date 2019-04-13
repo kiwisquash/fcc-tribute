@@ -31,6 +31,8 @@ body {
 
 #nav {
  background-color: var(--nav-back);
+ position: fixed;
+ width: 280px;
 }
 
 @media only screen and (max-width: 800px) {
